@@ -5,4 +5,8 @@ describe('ReverseString', () => {
         const str = 'a'
         expect(reverseString()).toBe('a')
     })
+    it('should reverse `b`', () => {
+        const str = 'b'
+        expect(reverseString()).toBe('b')
+    })
 })
