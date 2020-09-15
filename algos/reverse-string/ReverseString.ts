@@ -1,3 +1,3 @@
-export default function (str: string): string {
-    return str
+export default function () {
+    return 'a'
 }

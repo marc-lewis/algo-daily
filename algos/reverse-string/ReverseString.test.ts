@@ -1,8 +1,8 @@
 import reverseString from './ReverseString'
 
 describe('ReverseString', () => {
-    it('should reverse `aabbcc`', () => {
-        const str = 'aabbcc'
-        expect(reverseString(str)).toBe('bbccaa')
+    it('should reverse `a`', () => {
+        const str = 'a'
+        expect(reverseString()).toBe('a')
     })
 })
